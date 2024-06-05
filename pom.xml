@@ -55,13 +55,13 @@
         </dependency>
     </dependencies>
 <!--Deploy to Nexus-->
-<distibutionManagement>
+<distributionManagement>
          <repository>
                   <id>deployRepo</id>
                   <name>Nexus Repository</name>
                   <url>http://192.168.220.128:8081/repository/maven-releases/</url>
         </repository>
-</distibutionManagement>
+</distributionManagement>
          
     <build>
         <plugins>
